@@ -8,7 +8,7 @@ Make sure all of the projects dependencies have been installed `npm run i`.  The
 # How to use the compiled slash-line-component
 Once compiled *list/SlashLine.js* can then be copied into your web app and loaded via a script tag. Once loaded the components class will be attached to the window using the name specified in the package.json file as a namespace.  In this case window.SlashLine.
 
-Once the script is loaded you can buid an instance of the component like this:
+Once the script is loaded you can build an instance of the component like this:
 ```javascript
 new window.SlashLine({
             // initial set of props
